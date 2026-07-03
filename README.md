@@ -106,5 +106,3 @@ Suggested images:
 ## Project File
 
 - `Tailwind Traders Report.pbix`
-
-LinkedIn: https://linkedin.com/in/yourprofile
