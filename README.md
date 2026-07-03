@@ -107,11 +107,4 @@ Suggested images:
 
 - `Tailwind Traders Report.pbix`
 
----
-
-## About
-
-This project is part of my Data Analytics portfolio and demonstrates practical Microsoft Power BI skills used in Business Intelligence and Data Analyst roles.
-GitHub: https://github.com/yourusername
-
 LinkedIn: https://linkedin.com/in/yourprofile
