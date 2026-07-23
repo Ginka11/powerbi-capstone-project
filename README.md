@@ -1,108 +1,74 @@
-# 📊 Power BI Capstone Project – Tailwind Traders Business Intelligence Dashboard
+# Tailwind Traders Business Intelligence Dashboard
 
-## Overview
+A Power BI capstone project focused on sales, profitability, inventory and customer-loyalty reporting for the fictional Tailwind Traders business.
 
-This repository contains my final **Power BI Capstone Project**, where I designed and developed an interactive Business Intelligence dashboard for the fictional company **Tailwind Traders**.
+## Business Objective
 
-The project demonstrates the complete reporting workflow in **Microsoft Power BI**, including data modeling, data transformation, DAX calculations, KPI creation, report design, mobile optimization, publishing, dashboard creation, and report subscriptions in Power BI Service.
+Transform raw operational data into an interactive management report that helps users monitor performance, investigate trends and access a mobile-optimized version of the report.
 
----
+## Work Completed
 
-## Project Objectives
+- Cleaned and transformed data with Power Query.
+- Built a relational data model.
+- Created DAX measures and KPI cards.
+- Designed interactive report pages with slicers and filters.
+- Added sales, profit, inventory, country and loyalty analysis.
+- Created a dedicated mobile layout.
+- Published the report to Power BI Service and configured report subscriptions.
 
-The objective of this project was to transform raw business data into meaningful insights through interactive dashboards that support business decision-making.
-
-The dashboard allows users to:
-
-- Monitor sales performance
-- Analyze profit trends
-- Track inventory
-- Evaluate customer loyalty
-- Filter reports dynamically
-- Access optimized mobile reports
-
----
-
-## Skills Demonstrated
-
-- Data Modeling
-- Power Query (ETL)
-- DAX Measures
-- KPI Creation
-- Interactive Dashboards
-- Data Visualization
-- Slicers & Filters
-- Mobile Report Layout
-- Power BI Service
-- Dashboard Publishing
-- Report Subscriptions
-- Workspace Management
-
----
-
-## Dashboard Features
-
-- 📈 Sales Performance Dashboard
-- 💰 Gross Revenue KPI
-- 📦 Inventory Analysis
-- 🌍 Country Sales Analysis
-- 🎯 Loyalty Points Analysis
-- 📅 Date Slicer using Calendar Table
-- 📱 Mobile Layout Configuration
-- ☁️ Published to Power BI Service
-- 🔔 Automated Report Subscription
-
----
-
-## Technologies Used
+## Technologies
 
 - Microsoft Power BI Desktop
 - Power BI Service
-- DAX
 - Power Query
-- Data Modeling
-- Data Visualization
-
----
+- DAX
+- Data modeling
 
 ## Repository Structure
 
 ```text
 powerbi-capstone-project/
-│
 ├── Tailwind Traders Report.pbix
-├── README.md
-└── screenshots/
-    ├── dashboard.png
-    ├── mobile-layout.png
+├── screenshots/
+│   ├── first.png
+│   ├── second.png
+│   ├── third.png
+│   ├── fourth.png
+│   ├── fifth.png
+│   └── sixth.png
+└── README.md
 ```
 
----
+## Report Screenshots
 
-## Key Learning Outcomes
+### Report view 1
+![Tailwind Traders report view 1](screenshots/first.png)
 
-During this project I gained hands-on experience with:
+### Report view 2
+![Tailwind Traders report view 2](screenshots/second.png)
 
-- Designing professional Business Intelligence dashboards
-- Building efficient data models
-- Writing DAX measures and KPIs
-- Creating interactive visualizations
-- Optimizing reports for mobile devices
-- Publishing reports to Power BI Service
-- Configuring report subscriptions
-- Presenting business insights through data
+### Report view 3
+![Tailwind Traders report view 3](screenshots/third.png)
 
----
+### Report view 4
+![Tailwind Traders report view 4](screenshots/fourth.png)
 
-## Screenshots
+### Report view 5
+![Tailwind Traders report view 5](screenshots/fifth.png)
 
-Suggested images:
+### Report view 6
+![Tailwind Traders report view 6](screenshots/sixth.png)
 
-- Main Dashboard
-- Mobile Layout
-  
----
+## Skills Demonstrated
 
-## Project File
+- Business intelligence reporting
+- ETL with Power Query
+- Star-schema and relationship design
+- DAX measures and KPIs
+- Interactive filtering and navigation
+- Mobile report optimization
+- Power BI Service publishing
 
-- `Tailwind Traders Report.pbix`
+## Notes
+
+The `.pbix` file is included for direct review in Power BI Desktop. Because Power BI binary files cannot be meaningfully reviewed as plain source code on GitHub, the screenshots provide a browser-visible preview of the completed work.
