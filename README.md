@@ -54,7 +54,7 @@ The repository also includes mobile-layout screenshots. They demonstrate the res
 ## Repository Structure
 
 ```text
-powerbi-capstone-project/
+tailwind-traders-powerbi-dashboard/
 â”œâ”€â”€ Tailwind Traders Report.pbix
 â”œâ”€â”€ screenshots/
 â”‚   â”œâ”€â”€ first.png
