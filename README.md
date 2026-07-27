@@ -1,74 +1,82 @@
 # Tailwind Traders Business Intelligence Dashboard
 
-A Power BI capstone project focused on sales, profitability, inventory and customer-loyalty reporting for the fictional Tailwind Traders business.
+A guided Power BI capstone completed through the [Microsoft Power BI Data Analyst Professional Certificate](https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst) on Coursera. The project turns supplied business data into an executive report covering sales, profitability, inventory, products, countries, and customer loyalty.
 
-## Business Objective
+## My Contribution
 
-Transform raw operational data into an interactive management report that helps users monitor performance, investigate trends and access a mobile-optimized version of the report.
-
-## Work Completed
-
-- Cleaned and transformed data with Power Query.
-- Built a relational data model.
+- Transformed and prepared the supplied data with Power Query.
+- Built the relational data model used by the report.
 - Created DAX measures and KPI cards.
-- Designed interactive report pages with slicers and filters.
-- Added sales, profit, inventory, country and loyalty analysis.
-- Created a dedicated mobile layout.
-- Published the report to Power BI Service and configured report subscriptions.
+- Designed desktop report pages with filtering and navigation.
+- Built a dedicated mobile layout.
+- Published the report to Power BI Service and configured report delivery features.
 
-## Technologies
+## Business Questions
 
-- Microsoft Power BI Desktop
-- Power BI Service
-- Power Query
-- DAX
-- Data modeling
+- Which products contribute the most net revenue?
+- How are sales, profit, and inventory changing over time?
+- How do countries compare across sales and loyalty indicators?
+- Can executives review the core KPIs from both desktop and mobile layouts?
+
+## Report Snapshot
+
+The included report screenshots show the following values for the supplied capstone dataset:
+
+- **866.98K** net revenue
+- **473.42K** year-to-date profit
+- **14K** units of stock
+- **152** units purchased
+- **93K** net revenue for the highest-ranked product shown, Modular Sofa Set
+
+These are portfolio exercise outputs, not live Tailwind Traders business results.
+
+## Desktop Report
+
+### Executive overview
+
+![Tailwind Traders executive dashboard](screenshots/first.png)
+
+### Profitability and product performance
+
+![Tailwind Traders profitability dashboard](screenshots/second.png)
+
+<details>
+<summary>Mobile-layout evidence</summary>
+
+The repository also includes mobile-layout screenshots. They demonstrate the responsive report work completed during the capstone; further label and spacing refinement is planned before treating the layout as production-ready.
+
+![Tailwind Traders mobile report](screenshots/fifth.png)
+
+![Tailwind Traders mobile profitability view](screenshots/sixth.png)
+
+</details>
 
 ## Repository Structure
 
 ```text
 powerbi-capstone-project/
-├── Tailwind Traders Report.pbix
-├── screenshots/
-│   ├── first.png
-│   ├── second.png
-│   ├── third.png
-│   ├── fourth.png
-│   ├── fifth.png
-│   └── sixth.png
-└── README.md
+â”œâ”€â”€ Tailwind Traders Report.pbix
+â”œâ”€â”€ screenshots/
+â”‚   â”œâ”€â”€ first.png
+â”‚   â”œâ”€â”€ second.png
+â”‚   â”œâ”€â”€ third.png
+â”‚   â”œâ”€â”€ fourth.png
+â”‚   â”œâ”€â”€ fifth.png
+â”‚   â””â”€â”€ sixth.png
+â””â”€â”€ README.md
 ```
-
-## Report Screenshots
-
-### Report view 1
-![Tailwind Traders report view 1](screenshots/first.png)
-
-### Report view 2
-![Tailwind Traders report view 2](screenshots/second.png)
-
-### Report view 3
-![Tailwind Traders report view 3](screenshots/third.png)
-
-### Report view 4
-![Tailwind Traders report view 4](screenshots/fourth.png)
-
-### Report view 5
-![Tailwind Traders report view 5](screenshots/fifth.png)
-
-### Report view 6
-![Tailwind Traders report view 6](screenshots/sixth.png)
 
 ## Skills Demonstrated
 
+- Power Query data preparation
+- Relational data modeling
+- DAX measures and KPI design
 - Business intelligence reporting
-- ETL with Power Query
-- Star-schema and relationship design
-- DAX measures and KPIs
 - Interactive filtering and navigation
-- Mobile report optimization
+- Desktop and mobile report design
 - Power BI Service publishing
 
-## Notes
+## Validation Note
 
-The `.pbix` file is included for direct review in Power BI Desktop. Because Power BI binary files cannot be meaningfully reviewed as plain source code on GitHub, the screenshots provide a browser-visible preview of the completed work.
+This repository documents a guided learning project. Before operational use, measure definitions, percentage formatting, aggregation labels, and mobile text truncation should be independently reviewed. The `.pbix` file is included for direct inspection in Power BI Desktop.
+
