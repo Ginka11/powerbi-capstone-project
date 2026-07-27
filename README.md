@@ -55,15 +55,15 @@ The repository also includes mobile-layout screenshots. They demonstrate the res
 
 ```text
 tailwind-traders-powerbi-dashboard/
-â”œâ”€â”€ Tailwind Traders Report.pbix
-â”œâ”€â”€ screenshots/
-â”‚   â”œâ”€â”€ first.png
-â”‚   â”œâ”€â”€ second.png
-â”‚   â”œâ”€â”€ third.png
-â”‚   â”œâ”€â”€ fourth.png
-â”‚   â”œâ”€â”€ fifth.png
-â”‚   â””â”€â”€ sixth.png
-â””â”€â”€ README.md
+Tailwind Traders Report.pbix
+screenshots/
+first.png
+second.png
+third.png
+fourth.png
+fifth.png
+sixth.png
+README.md
 ```
 
 ## Skills Demonstrated
